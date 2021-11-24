@@ -124,10 +124,12 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     }
     
     func playCodecFile(_ file: String) {
-        guard let url = Bundle.main.url(forResource: file, withExtension: "mp3") else { return }
-        try? audioPlayer = AVAudioPlayer(contentsOf: url)
-        audioPlayer?.play()
-        audioPlayer?.delegate = self
+        if let noResponseURL = Bundle.main.url(forResource: "doorbuzz", withExtension: "mp3") {
+            let url = Bundle.main.url(forResource: file, withExtension: "mp3") ?? noResponseURL
+            try? audioPlayer = AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+            audioPlayer?.delegate = self
+        }
     }
     
     func playTrackFile(_ file: String) {
