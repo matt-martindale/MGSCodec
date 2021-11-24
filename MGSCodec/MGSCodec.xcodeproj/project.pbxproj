@@ -21,6 +21,13 @@
 		C9E1FED1274EAD5E00B8B041 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FED0274EAD5E00B8B041 /* ExtensionDelegate.swift */; };
 		C9E1FED3274EAD5E00B8B041 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FED2274EAD5E00B8B041 /* ComplicationController.swift */; };
 		C9E1FED5274EAD6000B8B041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FED4274EAD6000B8B041 /* Assets.xcassets */; };
+		C9E1FEE5274EAE2100B8B041 /* time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FEE4274EAE2100B8B041 /* time.ttf */; };
+		C9E1FEE6274EAE2100B8B041 /* time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FEE4274EAE2100B8B041 /* time.ttf */; };
+		C9E1FEE7274EAE2100B8B041 /* time.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FEE4274EAE2100B8B041 /* time.ttf */; };
+		C9E1FEED274EB20900B8B041 /* CodecCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEEB274EB20900B8B041 /* CodecCall.swift */; };
+		C9E1FEEE274EB20900B8B041 /* CodecCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEEB274EB20900B8B041 /* CodecCall.swift */; };
+		C9E1FEEF274EB20900B8B041 /* CodecCallsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEEC274EB20900B8B041 /* CodecCallsArray.swift */; };
+		C9E1FEF0274EB20900B8B041 /* CodecCallsArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEEC274EB20900B8B041 /* CodecCallsArray.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +90,9 @@
 		C9E1FED2274EAD5E00B8B041 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
 		C9E1FED4274EAD6000B8B041 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9E1FED6274EAD6000B8B041 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E1FEE4274EAE2100B8B041 /* time.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = time.ttf; sourceTree = "<group>"; };
+		C9E1FEEB274EB20900B8B041 /* CodecCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodecCall.swift; sourceTree = "<group>"; };
+		C9E1FEEC274EB20900B8B041 /* CodecCallsArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CodecCallsArray.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +152,7 @@
 			children = (
 				C9E1FEC0274EAD5D00B8B041 /* Interface.storyboard */,
 				C9E1FEC3274EAD5E00B8B041 /* Assets.xcassets */,
+				C9E1FEE4274EAE2100B8B041 /* time.ttf */,
 			);
 			path = "MGSCodec WatchKit App";
 			sourceTree = "<group>";
@@ -150,6 +161,8 @@
 			isa = PBXGroup;
 			children = (
 				C9E1FECE274EAD5E00B8B041 /* InterfaceController.swift */,
+				C9E1FEEB274EB20900B8B041 /* CodecCall.swift */,
+				C9E1FEEC274EB20900B8B041 /* CodecCallsArray.swift */,
 				C9E1FED0274EAD5E00B8B041 /* ExtensionDelegate.swift */,
 				C9E1FED2274EAD5E00B8B041 /* ComplicationController.swift */,
 				C9E1FED4274EAD6000B8B041 /* Assets.xcassets */,
@@ -263,6 +276,7 @@
 				C9E1FEB7274EAD5D00B8B041 /* LaunchScreen.storyboard in Resources */,
 				C9E1FEB4274EAD5D00B8B041 /* Assets.xcassets in Resources */,
 				C9E1FEB2274EAD5900B8B041 /* Main.storyboard in Resources */,
+				C9E1FEE5274EAE2100B8B041 /* time.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +286,7 @@
 			files = (
 				C9E1FEC4274EAD5E00B8B041 /* Assets.xcassets in Resources */,
 				C9E1FEC2274EAD5D00B8B041 /* Interface.storyboard in Resources */,
+				C9E1FEE6274EAE2100B8B041 /* time.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +295,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E1FED5274EAD6000B8B041 /* Assets.xcassets in Resources */,
+				C9E1FEE7274EAE2100B8B041 /* time.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +306,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E1FEED274EB20900B8B041 /* CodecCall.swift in Sources */,
+				C9E1FEEF274EB20900B8B041 /* CodecCallsArray.swift in Sources */,
 				C9E1FEAF274EAD5900B8B041 /* ViewController.swift in Sources */,
 				C9E1FEAB274EAD5900B8B041 /* AppDelegate.swift in Sources */,
 				C9E1FEAD274EAD5900B8B041 /* SceneDelegate.swift in Sources */,
@@ -300,6 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E1FEEE274EB20900B8B041 /* CodecCall.swift in Sources */,
+				C9E1FEF0274EB20900B8B041 /* CodecCallsArray.swift in Sources */,
 				C9E1FED1274EAD5E00B8B041 /* ExtensionDelegate.swift in Sources */,
 				C9E1FECF274EAD5E00B8B041 /* InterfaceController.swift in Sources */,
 				C9E1FED3274EAD5E00B8B041 /* ComplicationController.swift in Sources */,
@@ -470,9 +490,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MGSCodec WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "MGSCodec WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = MGSCodec_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = MGSCodec_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -501,9 +521,9 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "MGSCodec WatchKit Extension/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "MGSCodec WatchKit Extension";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = MGSCodec_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKExtensionDelegateClassName = "$(PRODUCT_MODULE_NAME).ExtensionDelegate";
+				INFOPLIST_KEY_WKExtensionDelegateClassName = MGSCodec_WatchKit_Extension.ExtensionDelegate;
 				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
