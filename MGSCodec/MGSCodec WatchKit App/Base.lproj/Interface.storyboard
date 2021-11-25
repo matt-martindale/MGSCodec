@@ -11,10 +11,10 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Interface Controller-->
+        <!--Main-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MGSCodec_WatchKit_App" customModuleProvider="target">
+                <controller identifier="Main" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MGSCodec_WatchKit_App" customModuleProvider="target">
                     <items>
                         <imageView alignment="left" image="none" id="YN4-d1-ayW" userLabel="codecImage">
                             <gestureRecognizers>
@@ -26,6 +26,13 @@
                             </gestureRecognizers>
                         </imageView>
                         <label alignment="center" text="140.85" numberOfLines="0" id="yXE-pI-9mN" userLabel="textLabel">
+                            <gestureRecognizers>
+                                <tapGestureRecognizer id="3Pm-j3-Lv3">
+                                    <connections>
+                                        <action selector="frequencyTapped:" destination="AgC-eL-Hgc" id="cHq-kS-56V"/>
+                                    </connections>
+                                </tapGestureRecognizer>
+                            </gestureRecognizers>
                             <fontDescription key="font" name="TickingTimebombBB" family="Ticking Timebomb BB" pointSize="45"/>
                         </label>
                     </items>
@@ -35,7 +42,32 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="-26" y="-44"/>
+            <point key="canvasLocation" x="-196" y="-90"/>
+        </scene>
+        <!--Frequency-->
+        <scene sceneID="L68-AJ-gDh">
+            <objects>
+                <controller identifier="Frequency" id="l3A-Ra-WaM">
+                    <items>
+                        <label height="0.20000000000000001" alignment="left" text="Frequencies:" id="4SU-Lm-Ixf">
+                            <color key="textColor" red="0.28235294117647058" green="0.56862745098039214" blue="0.41176470588235292" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <fontDescription key="font" style="UICTFontTextStyleTitle3"/>
+                        </label>
+                        <label alignment="left" numberOfLines="0" id="e0i-Zl-70J">
+                            <string key="text">Major Zero - 140.85
+Colonel - 140.87
+Otacon - 141.12
+Sigint - 141.41
+The Boss - 141.80
+Eva - 142.52
+Paramedic - 142.73
+Ocelot - 142.75</string>
+                            <fontDescription key="font" style="UICTFontTextStyleFootnote"/>
+                        </label>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="25" y="-88"/>
         </scene>
     </scenes>
     <resources>

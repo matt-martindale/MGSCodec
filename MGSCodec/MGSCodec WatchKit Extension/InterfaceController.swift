@@ -14,6 +14,7 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     // MARK: - IBOutlets
     @IBOutlet weak var codecImage: WKInterfaceImage!
     @IBOutlet weak var textLabel: WKInterfaceLabel!
+    @IBOutlet weak var frequenciesLabel: WKInterfaceLabel!
     
     // MARK: - Properties
     var crownAccumulator = 0.0
@@ -47,6 +48,10 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
         } else {
             handleCodecTapped()
         }
+    }
+    
+    @IBAction func frequencyTapped(_ sender: Any) {
+        presentController(withName: "Frequency", context: nil)
     }
     
     func crownDidRotate(_ crownSequencer: WKCrownSequencer?, rotationalDelta: Double) {

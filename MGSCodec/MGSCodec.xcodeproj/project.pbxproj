@@ -175,6 +175,15 @@
 		C9E1FFBD274EB8A500B8B041 /* SnakeSICK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FF2C274EB8A400B8B041 /* SnakeSICK.mp3 */; };
 		C9E1FFBE274EB8A500B8B041 /* SnakeSICK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FF2C274EB8A400B8B041 /* SnakeSICK.mp3 */; };
 		C9E1FFBF274EB8A500B8B041 /* SnakeSICK.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FF2C274EB8A400B8B041 /* SnakeSICK.mp3 */; };
+		C9E1FFD5274F1E7C00B8B041 /* MGS3-Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD2274F1E7A00B8B041 /* MGS3-Theme.mp3 */; };
+		C9E1FFD6274F1E7C00B8B041 /* MGS3-Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD2274F1E7A00B8B041 /* MGS3-Theme.mp3 */; };
+		C9E1FFD7274F1E7C00B8B041 /* MGS3-Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD2274F1E7A00B8B041 /* MGS3-Theme.mp3 */; };
+		C9E1FFD8274F1E7C00B8B041 /* wayToFall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD3274F1E7B00B8B041 /* wayToFall.mp3 */; };
+		C9E1FFD9274F1E7C00B8B041 /* wayToFall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD3274F1E7B00B8B041 /* wayToFall.mp3 */; };
+		C9E1FFDA274F1E7C00B8B041 /* wayToFall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD3274F1E7B00B8B041 /* wayToFall.mp3 */; };
+		C9E1FFDB274F1E7C00B8B041 /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */; };
+		C9E1FFDC274F1E7C00B8B041 /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */; };
+		C9E1FFDD274F1E7C00B8B041 /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -289,6 +298,9 @@
 		C9E1FF2A274EB8A400B8B041 /* Snake1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snake1.mp3; sourceTree = "<group>"; };
 		C9E1FF2B274EB8A400B8B041 /* SnakeCantBeSerious.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SnakeCantBeSerious.mp3; sourceTree = "<group>"; };
 		C9E1FF2C274EB8A400B8B041 /* SnakeSICK.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SnakeSICK.mp3; sourceTree = "<group>"; };
+		C9E1FFD2274F1E7A00B8B041 /* MGS3-Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MGS3-Theme.mp3"; sourceTree = "<group>"; };
+		C9E1FFD3274F1E7B00B8B041 /* wayToFall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wayToFall.mp3; sourceTree = "<group>"; };
+		C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snakeEater.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -438,6 +450,9 @@
 		C9E1FF0C274EB8A400B8B041 /* Tracks */ = {
 			isa = PBXGroup;
 			children = (
+				C9E1FFD2274F1E7A00B8B041 /* MGS3-Theme.mp3 */,
+				C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */,
+				C9E1FFD3274F1E7B00B8B041 /* wayToFall.mp3 */,
 			);
 			path = Tracks;
 			sourceTree = "<group>";
@@ -575,6 +590,7 @@
 					};
 					C9E1FEBA274EAD5D00B8B041 = {
 						CreatedOnToolsVersion = 13.1;
+						LastSwiftMigration = 1310;
 					};
 					C9E1FEC8274EAD5E00B8B041 = {
 						CreatedOnToolsVersion = 13.1;
@@ -622,6 +638,7 @@
 				C9E1FFB7274EB8A500B8B041 /* Snake1.mp3 in Resources */,
 				C9E1FFAB274EB8A500B8B041 /* TheBossPhilosophers.mp3 in Resources */,
 				C9E1FF39274EB8A400B8B041 /* tune.mp3 in Resources */,
+				C9E1FFD8274F1E7C00B8B041 /* wayToFall.mp3 in Resources */,
 				C9E1FF42274EB8A400B8B041 /* found.mp3 in Resources */,
 				C9E1FFB4274EB8A500B8B041 /* Snake2.mp3 in Resources */,
 				C9E1FF45274EB8A400B8B041 /* codeccall.mp3 in Resources */,
@@ -636,10 +653,12 @@
 				C9E1FF8A274EB8A400B8B041 /* SigintEnd.mp3 in Resources */,
 				C9E1FF90274EB8A500B8B041 /* TheBossFriendsToEnemies.mp3 in Resources */,
 				C9E1FF84274EB8A400B8B041 /* SigintPants.mp3 in Resources */,
+				C9E1FFDB274F1E7C00B8B041 /* snakeEater.mp3 in Resources */,
 				C9E1FF51274EB8A400B8B041 /* itemopen.mp3 in Resources */,
 				C9E1FF75274EB8A400B8B041 /* SigintExplainsJoy.mp3 in Resources */,
 				C9E1FF99274EB8A500B8B041 /* TheBossSoldiers.mp3 in Resources */,
 				C9E1FF3F274EB8A400B8B041 /* Beep.mp3 in Resources */,
+				C9E1FFD5274F1E7C00B8B041 /* MGS3-Theme.mp3 in Resources */,
 				C9E1FF63274EB8A400B8B041 /* EvaWait.mp3 in Resources */,
 				C9E1FF81274EB8A400B8B041 /* SigintCQC.mp3 in Resources */,
 				C9E1FF78274EB8A400B8B041 /* SigintFear.mp3 in Resources */,
@@ -672,6 +691,7 @@
 				C9E1FF4F274EB8A400B8B041 /* Beep2.mp3 in Resources */,
 				C9E1FFA0274EB8A500B8B041 /* TheBossCQC.mp3 in Resources */,
 				C9E1FF76274EB8A400B8B041 /* SigintExplainsJoy.mp3 in Resources */,
+				C9E1FFD6274F1E7C00B8B041 /* MGS3-Theme.mp3 in Resources */,
 				C9E1FF6D274EB8A400B8B041 /* OcelotNotDoneYet.mp3 in Resources */,
 				C9E1FF55274EB8A400B8B041 /* EvaEndCamouflage.mp3 in Resources */,
 				C9E1FF61274EB8A400B8B041 /* EvaStealLegacy.mp3 in Resources */,
@@ -693,6 +713,7 @@
 				C9E1FF82274EB8A400B8B041 /* SigintCQC.mp3 in Resources */,
 				C9E1FF94274EB8A500B8B041 /* TheBossKill.mp3 in Resources */,
 				C9E1FF73274EB8A400B8B041 /* Zero1.mp3 in Resources */,
+				C9E1FFD9274F1E7C00B8B041 /* wayToFall.mp3 in Resources */,
 				C9E1FFA3274EB8A500B8B041 /* TheBossOnlyOne.mp3 in Resources */,
 				C9E1FF46274EB8A400B8B041 /* codeccall.mp3 in Resources */,
 				C9E1FFAC274EB8A500B8B041 /* TheBossPhilosophers.mp3 in Resources */,
@@ -713,6 +734,7 @@
 				C9E1FFA6274EB8A500B8B041 /* TheBossCamoMorons.mp3 in Resources */,
 				C9E1FF3D274EB8A400B8B041 /* gameover.mp3 in Resources */,
 				C9E1FF9D274EB8A500B8B041 /* TheBossWill.mp3 in Resources */,
+				C9E1FFDC274F1E7C00B8B041 /* snakeEater.mp3 in Resources */,
 				C9E1FFAF274EB8A500B8B041 /* TheBossTodaysAlly.mp3 in Resources */,
 				C9E1FF64274EB8A400B8B041 /* EvaWait.mp3 in Resources */,
 				C9E1FF7C274EB8A400B8B041 /* SigintFury.mp3 in Resources */,
@@ -741,6 +763,8 @@
 				C9E1FFBC274EB8A500B8B041 /* SnakeCantBeSerious.mp3 in Resources */,
 				C9E1FF95274EB8A500B8B041 /* TheBossKill.mp3 in Resources */,
 				C9E1FF71274EB8A400B8B041 /* Zero00snake.mp3 in Resources */,
+				C9E1FFDA274F1E7C00B8B041 /* wayToFall.mp3 in Resources */,
+				C9E1FFDD274F1E7C00B8B041 /* snakeEater.mp3 in Resources */,
 				C9E1FFA1274EB8A500B8B041 /* TheBossCQC.mp3 in Resources */,
 				C9E1FF7D274EB8A400B8B041 /* SigintFury.mp3 in Resources */,
 				C9E1FF9B274EB8A500B8B041 /* TheBossSoldiers.mp3 in Resources */,
@@ -763,6 +787,7 @@
 				C9E1FF56274EB8A400B8B041 /* EvaEndCamouflage.mp3 in Resources */,
 				C9E1FF4D274EB8A400B8B041 /* doorbuzz.mp3 in Resources */,
 				C9E1FF80274EB8A400B8B041 /* SigintPain.mp3 in Resources */,
+				C9E1FFD7274F1E7C00B8B041 /* MGS3-Theme.mp3 in Resources */,
 				C9E1FF83274EB8A400B8B041 /* SigintCQC.mp3 in Resources */,
 				C9E1FED5274EAD6000B8B041 /* Assets.xcassets in Resources */,
 				C9E1FF2F274EB8A400B8B041 /* ParamedicName.mp3 in Resources */,
@@ -1029,6 +1054,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NVQX7ZW685;
@@ -1037,12 +1063,18 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "MGSCodec WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mattmartindale.MGSCodec;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattmartindale.MGSCodec.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 8.0;
@@ -1055,6 +1087,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = NVQX7ZW685;
@@ -1063,6 +1096,11 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "MGSCodec WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.mattmartindale.MGSCodec;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattmartindale.MGSCodec.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
