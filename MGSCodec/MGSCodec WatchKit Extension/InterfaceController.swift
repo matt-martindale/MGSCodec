@@ -14,7 +14,6 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     // MARK: - IBOutlets
     @IBOutlet weak var codecImage: WKInterfaceImage!
     @IBOutlet weak var textLabel: WKInterfaceLabel!
-    @IBOutlet weak var frequenciesLabel: WKInterfaceLabel!
     
     // MARK: - Properties
     var crownAccumulator = 0.0
@@ -93,7 +92,8 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
             handleAudioClip(frequency: myValue)
         } else {
             codecImage.setImageNamed("none")
-            textLabel.setText(String(myValue))
+            let frequency = String(format: "%.2f", myValue)
+            textLabel.setText(String(frequency))
         }
     }
     
@@ -164,7 +164,8 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
         audioPlayer.stop()
         crownSequencer.focus()
         codecImage.setImageNamed("none")
-        textLabel.setText(String(myValue))
+        let frequency = String(format: "%.2f", myValue)
+        textLabel.setText(String(frequency))
     }
     
     func fetchCodecDetails(frequency: Double) -> CodecCall {
