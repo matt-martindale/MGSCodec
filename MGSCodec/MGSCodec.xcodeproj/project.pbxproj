@@ -184,6 +184,10 @@
 		C9E1FFDB274F1E7C00B8B041 /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */; };
 		C9E1FFDC274F1E7C00B8B041 /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */; };
 		C9E1FFDD274F1E7C00B8B041 /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */; };
+		C9E1FFE22758210F00B8B041 /* CodecViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FFE12758210E00B8B041 /* CodecViewModel.swift */; };
+		C9E1FFE32758210F00B8B041 /* CodecViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FFE12758210E00B8B041 /* CodecViewModel.swift */; };
+		C9E1FFE62758213400B8B041 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FFE52758213400B8B041 /* Box.swift */; };
+		C9E1FFE72758213400B8B041 /* Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FFE52758213400B8B041 /* Box.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -301,6 +305,8 @@
 		C9E1FFD2274F1E7A00B8B041 /* MGS3-Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MGS3-Theme.mp3"; sourceTree = "<group>"; };
 		C9E1FFD3274F1E7B00B8B041 /* wayToFall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wayToFall.mp3; sourceTree = "<group>"; };
 		C9E1FFD4274F1E7C00B8B041 /* snakeEater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snakeEater.mp3; sourceTree = "<group>"; };
+		C9E1FFE12758210E00B8B041 /* CodecViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodecViewModel.swift; sourceTree = "<group>"; };
+		C9E1FFE52758213400B8B041 /* Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Box.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -369,9 +375,10 @@
 		C9E1FECD274EAD5E00B8B041 /* MGSCodec WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				C9E1FECE274EAD5E00B8B041 /* InterfaceController.swift */,
-				C9E1FEEB274EB20900B8B041 /* CodecCall.swift */,
-				C9E1FEEC274EB20900B8B041 /* CodecCallsArray.swift */,
+				C9E1FFE42758212600B8B041 /* Utilities */,
+				C9E1FFE0275820EF00B8B041 /* View Models */,
+				C9E1FFDF275820CA00B8B041 /* Controllers */,
+				C9E1FFDE275820B000B8B041 /* Models */,
 				C9E1FED0274EAD5E00B8B041 /* ExtensionDelegate.swift */,
 				C9E1FED2274EAD5E00B8B041 /* ComplicationController.swift */,
 				C9E1FED4274EAD6000B8B041 /* Assets.xcassets */,
@@ -517,6 +524,39 @@
 				C9E1FF2C274EB8A400B8B041 /* SnakeSICK.mp3 */,
 			);
 			path = Snake;
+			sourceTree = "<group>";
+		};
+		C9E1FFDE275820B000B8B041 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1FEEB274EB20900B8B041 /* CodecCall.swift */,
+				C9E1FEEC274EB20900B8B041 /* CodecCallsArray.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C9E1FFDF275820CA00B8B041 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1FECE274EAD5E00B8B041 /* InterfaceController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C9E1FFE0275820EF00B8B041 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1FFE12758210E00B8B041 /* CodecViewModel.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		C9E1FFE42758212600B8B041 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				C9E1FFE52758213400B8B041 /* Box.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -812,6 +852,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E1FEED274EB20900B8B041 /* CodecCall.swift in Sources */,
+				C9E1FFE62758213400B8B041 /* Box.swift in Sources */,
+				C9E1FFE22758210F00B8B041 /* CodecViewModel.swift in Sources */,
 				C9E1FEEF274EB20900B8B041 /* CodecCallsArray.swift in Sources */,
 				C9E1FEAF274EAD5900B8B041 /* ViewController.swift in Sources */,
 				C9E1FEAB274EAD5900B8B041 /* AppDelegate.swift in Sources */,
@@ -824,6 +866,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9E1FEEE274EB20900B8B041 /* CodecCall.swift in Sources */,
+				C9E1FFE72758213400B8B041 /* Box.swift in Sources */,
+				C9E1FFE32758210F00B8B041 /* CodecViewModel.swift in Sources */,
 				C9E1FEF0274EB20900B8B041 /* CodecCallsArray.swift in Sources */,
 				C9E1FED1274EAD5E00B8B041 /* ExtensionDelegate.swift in Sources */,
 				C9E1FECF274EAD5E00B8B041 /* InterfaceController.swift in Sources */,
