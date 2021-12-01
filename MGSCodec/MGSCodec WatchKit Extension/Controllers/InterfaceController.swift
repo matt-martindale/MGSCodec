@@ -16,7 +16,7 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     @IBOutlet weak var textLabel: WKInterfaceLabel!
     
     // MARK: - Properties
-    var crownAccumulator = 0.0
+    let codecViewModel = CodecViewModel()
     var audioPlayer: AVAudioPlayer?
     var count = 0
     var myValue: Double = 140.85 {
@@ -33,6 +33,11 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     // MARK: - Lifecycle methods
     override func awake(withContext context: Any?) {
         crownSequencer.delegate = self
+        codecViewModel.crownValue.bind { [weak self] crownValue in
+            if let value = self?.codecViewModel.decimalFormatter.string(from: NSNumber(value: crownValue)) {
+                self?.textLabel.setText(String(value))
+            }
+        }
     }
 
     override func willActivate() {
@@ -53,26 +58,13 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     }
     
     func crownDidRotate(_ crownSequencer: WKCrownSequencer?, rotationalDelta: Double) {
-        crownAccumulator += rotationalDelta
+        codecViewModel.crownAccumulator += rotationalDelta
         
         if let audioPlayer = audioPlayer, audioPlayer.isPlaying {
             crownSequencer?.resignFocus()
             return
         } else {
-            if myValue < 140.00 {
-                myValue = 142.99
-            }
-            if myValue > 142.99 {
-                myValue = 140.00
-            }
-            
-            if crownAccumulator > 0.06 {
-                myValue += 0.01
-                crownAccumulator = 0.0
-            } else if crownAccumulator < -0.06 {
-                myValue -= 0.01
-                crownAccumulator = 0.0
-            }
+            codecViewModel.handleCrownDidRotate()
         }
     }
     
