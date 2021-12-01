@@ -18,7 +18,6 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
     // MARK: - Properties
     var crownAccumulator = 0.0
     var audioPlayer: AVAudioPlayer?
-    var semaphore = DispatchSemaphore(value: 1)
     var count = 0
     var myValue: Double = 140.85 {
         didSet {
