@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="19455" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
     <device id="watch38"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="19454"/>
+        <deployment identifier="watchOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="21501"/>
     </dependencies>
     <customFonts key="customFonts">
         <array key="time.ttf">
@@ -16,7 +16,7 @@
             <objects>
                 <controller identifier="Main" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="MGSCodec_WatchKit_App" customModuleProvider="target">
                     <items>
-                        <imageView alignment="left" image="none" id="YN4-d1-ayW" userLabel="codecImage">
+                        <imageView width="136" height="100" alignment="center" image="none" id="YN4-d1-ayW" userLabel="codecImage">
                             <gestureRecognizers>
                                 <tapGestureRecognizer id="9o5-uC-tf1">
                                     <connections>
@@ -67,7 +67,7 @@ Ocelot - 142.75</string>
                     </items>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="25" y="-88"/>
+            <point key="canvasLocation" x="123" y="-90"/>
         </scene>
     </scenes>
     <resources>
