@@ -36,6 +36,7 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
         codecViewModel.crownValue.bind { [weak self] crownValue in
             if let value = self?.codecViewModel.decimalFormatter.string(from: NSNumber(value: crownValue)) {
                 self?.textLabel.setText(String(value))
+                self?.myValue = crownValue
             }
         }
     }
