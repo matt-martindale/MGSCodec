@@ -44,6 +44,16 @@ class CodecViewModel {
         }
     }
 
+    func getCodecImage(_ codecCall: CodecCall) -> String {
+        if codecCall.category == .character {
+            return codecCall.character.rawValue
+        } else if codecCall.category == .track {
+            return "track"
+        } else {
+            return "none"
+        }
+    }
+
     func fetchCodecDetails(frequency: Double) -> CodecCall {
         switch frequency {
         case 140.85:

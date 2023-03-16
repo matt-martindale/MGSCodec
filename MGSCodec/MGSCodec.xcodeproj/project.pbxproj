@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8C6FD1229C197660020C10E /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1129C197660020C10E /* snakeEater.mp3 */; };
+		C8C6FD1329C36E230020C10E /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1129C197660020C10E /* snakeEater.mp3 */; };
+		C8C6FD1429C36E250020C10E /* snakeEater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1129C197660020C10E /* snakeEater.mp3 */; };
+		C8C6FD1729C36F400020C10E /* MGS3-Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1529C36F3F0020C10E /* MGS3-Theme.mp3 */; };
+		C8C6FD1829C36F400020C10E /* MGS3-Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1529C36F3F0020C10E /* MGS3-Theme.mp3 */; };
+		C8C6FD1929C36F400020C10E /* MGS3-Theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1529C36F3F0020C10E /* MGS3-Theme.mp3 */; };
+		C8C6FD1A29C36F400020C10E /* wayToFall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1629C36F3F0020C10E /* wayToFall.mp3 */; };
+		C8C6FD1B29C36F400020C10E /* wayToFall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1629C36F3F0020C10E /* wayToFall.mp3 */; };
+		C8C6FD1C29C36F400020C10E /* wayToFall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8C6FD1629C36F3F0020C10E /* wayToFall.mp3 */; };
 		C9E1FEAB274EAD5900B8B041 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEAA274EAD5900B8B041 /* AppDelegate.swift */; };
 		C9E1FEAD274EAD5900B8B041 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEAC274EAD5900B8B041 /* SceneDelegate.swift */; };
 		C9E1FEAF274EAD5900B8B041 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E1FEAE274EAD5900B8B041 /* ViewController.swift */; };
@@ -224,6 +233,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8C6FD1129C197660020C10E /* snakeEater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = snakeEater.mp3; sourceTree = "<group>"; };
+		C8C6FD1529C36F3F0020C10E /* MGS3-Theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "MGS3-Theme.mp3"; sourceTree = "<group>"; };
+		C8C6FD1629C36F3F0020C10E /* wayToFall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wayToFall.mp3; sourceTree = "<group>"; };
 		C9E1FEA7274EAD5900B8B041 /* MGSCodec.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGSCodec.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9E1FEAA274EAD5900B8B041 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9E1FEAC274EAD5900B8B041 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -315,6 +327,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C8C6FD1029C197310020C10E /* Tracks */ = {
+			isa = PBXGroup;
+			children = (
+				C8C6FD1129C197660020C10E /* snakeEater.mp3 */,
+				C8C6FD1529C36F3F0020C10E /* MGS3-Theme.mp3 */,
+				C8C6FD1629C36F3F0020C10E /* wayToFall.mp3 */,
+			);
+			path = Tracks;
+			sourceTree = "<group>";
+		};
 		C9E1FE9E274EAD5900B8B041 = {
 			isa = PBXGroup;
 			children = (
@@ -378,11 +400,11 @@
 		C9E1FEF1274EB8A400B8B041 /* audio */ = {
 			isa = PBXGroup;
 			children = (
+				C8C6FD1029C197310020C10E /* Tracks */,
 				C9E1FEF2274EB8A400B8B041 /* paramedic */,
 				C9E1FEF5274EB8A400B8B041 /* Misc */,
 				C9E1FF01274EB8A400B8B041 /* Eva */,
 				C9E1FF0A274EB8A400B8B041 /* Ocelot */,
-				C9E1FF0C274EB8A400B8B041 /* Tracks */,
 				C9E1FF0D274EB8A400B8B041 /* Zero */,
 				C9E1FF10274EB8A400B8B041 /* Sigint */,
 				C9E1FF19274EB8A400B8B041 /* TheBoss */,
@@ -440,13 +462,6 @@
 				C9E1FF0B274EB8A400B8B041 /* OcelotNotDoneYet.mp3 */,
 			);
 			path = Ocelot;
-			sourceTree = "<group>";
-		};
-		C9E1FF0C274EB8A400B8B041 /* Tracks */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Tracks;
 			sourceTree = "<group>";
 		};
 		C9E1FF0D274EB8A400B8B041 /* Zero */ = {
@@ -653,6 +668,7 @@
 				C9E1FF7E274EB8A400B8B041 /* SigintPain.mp3 in Resources */,
 				C9E1FF9F274EB8A500B8B041 /* TheBossCQC.mp3 in Resources */,
 				C9E1FFA2274EB8A500B8B041 /* TheBossOnlyOne.mp3 in Resources */,
+				C8C6FD1A29C36F400020C10E /* wayToFall.mp3 in Resources */,
 				C9E1FFA5274EB8A500B8B041 /* TheBossCamoMorons.mp3 in Resources */,
 				C9E1FF93274EB8A500B8B041 /* TheBossKill.mp3 in Resources */,
 				C9E1FF54274EB8A400B8B041 /* EvaEndCamouflage.mp3 in Resources */,
@@ -664,6 +680,7 @@
 				C9E1FFAB274EB8A500B8B041 /* TheBossPhilosophers.mp3 in Resources */,
 				C9E1FF39274EB8A400B8B041 /* tune.mp3 in Resources */,
 				C9E1FF42274EB8A400B8B041 /* found.mp3 in Resources */,
+				C8C6FD1329C36E230020C10E /* snakeEater.mp3 in Resources */,
 				C9E1FFB4274EB8A500B8B041 /* Snake2.mp3 in Resources */,
 				C9E1FF45274EB8A400B8B041 /* codeccall.mp3 in Resources */,
 				C9E1FF4E274EB8A400B8B041 /* Beep2.mp3 in Resources */,
@@ -681,6 +698,7 @@
 				C9E1FF75274EB8A400B8B041 /* SigintExplainsJoy.mp3 in Resources */,
 				C9E1FF99274EB8A500B8B041 /* TheBossSoldiers.mp3 in Resources */,
 				C9E1FF3F274EB8A400B8B041 /* Beep.mp3 in Resources */,
+				C8C6FD1729C36F400020C10E /* MGS3-Theme.mp3 in Resources */,
 				C9E1FF63274EB8A400B8B041 /* EvaWait.mp3 in Resources */,
 				C9E1FF81274EB8A400B8B041 /* SigintCQC.mp3 in Resources */,
 				C9E1FF78274EB8A400B8B041 /* SigintFear.mp3 in Resources */,
@@ -709,6 +727,7 @@
 			files = (
 				C9E1FF6A274EB8A400B8B041 /* EvaTheBoss.mp3 in Resources */,
 				C9E1FF31274EB8A400B8B041 /* ParamedicSave.mp3 in Resources */,
+				C8C6FD1229C197660020C10E /* snakeEater.mp3 in Resources */,
 				C9E1FFBB274EB8A500B8B041 /* SnakeCantBeSerious.mp3 in Resources */,
 				C9E1FF4F274EB8A400B8B041 /* Beep2.mp3 in Resources */,
 				C9E1FFA0274EB8A500B8B041 /* TheBossCQC.mp3 in Resources */,
@@ -722,6 +741,7 @@
 				C9E1FFB5274EB8A500B8B041 /* Snake2.mp3 in Resources */,
 				C9E1FF70274EB8A400B8B041 /* Zero00snake.mp3 in Resources */,
 				C9E1FF79274EB8A400B8B041 /* SigintFear.mp3 in Resources */,
+				C8C6FD1B29C36F400020C10E /* wayToFall.mp3 in Resources */,
 				C9E1FEC4274EAD5E00B8B041 /* Assets.xcassets in Resources */,
 				C9E1FF40274EB8A400B8B041 /* Beep.mp3 in Resources */,
 				C9E1FF8E274EB8A500B8B041 /* TheBossAlike.mp3 in Resources */,
@@ -740,6 +760,7 @@
 				C9E1FF58274EB8A400B8B041 /* Eva1.mp3 in Resources */,
 				C9E1FEC2274EAD5D00B8B041 /* Interface.storyboard in Resources */,
 				C9E1FF5E274EB8A400B8B041 /* EvaSnakeAreYouThere.mp3 in Resources */,
+				C8C6FD1829C36F400020C10E /* MGS3-Theme.mp3 in Resources */,
 				C9E1FFA9274EB8A500B8B041 /* TheBossFinishMission.mp3 in Resources */,
 				C9E1FF8B274EB8A400B8B041 /* SigintEnd.mp3 in Resources */,
 				C9E1FF91274EB8A500B8B041 /* TheBossFriendsToEnemies.mp3 in Resources */,
@@ -772,6 +793,7 @@
 				C9E1FF6E274EB8A400B8B041 /* OcelotNotDoneYet.mp3 in Resources */,
 				C9E1FF41274EB8A400B8B041 /* Beep.mp3 in Resources */,
 				C9E1FF68274EB8A400B8B041 /* EvaChina.mp3 in Resources */,
+				C8C6FD1929C36F400020C10E /* MGS3-Theme.mp3 in Resources */,
 				C9E1FF47274EB8A400B8B041 /* codeccall.mp3 in Resources */,
 				C9E1FFB0274EB8A500B8B041 /* TheBossTodaysAlly.mp3 in Resources */,
 				C9E1FF62274EB8A400B8B041 /* EvaStealLegacy.mp3 in Resources */,
@@ -793,6 +815,7 @@
 				C9E1FF35274EB8A400B8B041 /* codecover.mp3 in Resources */,
 				C9E1FF65274EB8A400B8B041 /* EvaWait.mp3 in Resources */,
 				C9E1FF8C274EB8A500B8B041 /* SigintEnd.mp3 in Resources */,
+				C8C6FD1C29C36F400020C10E /* wayToFall.mp3 in Resources */,
 				C9E1FF89274EB8A400B8B041 /* SigintJoy.mp3 in Resources */,
 				C9E1FFBF274EB8A500B8B041 /* SnakeSICK.mp3 in Resources */,
 				C9E1FFA7274EB8A500B8B041 /* TheBossCamoMorons.mp3 in Resources */,
@@ -817,6 +840,7 @@
 				C9E1FFB9274EB8A500B8B041 /* Snake1.mp3 in Resources */,
 				C9E1FFA4274EB8A500B8B041 /* TheBossOnlyOne.mp3 in Resources */,
 				C9E1FF8F274EB8A500B8B041 /* TheBossAlike.mp3 in Resources */,
+				C8C6FD1429C36E250020C10E /* snakeEater.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

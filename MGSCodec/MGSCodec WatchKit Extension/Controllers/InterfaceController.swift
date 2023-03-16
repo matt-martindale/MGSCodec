@@ -82,21 +82,11 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
         let font = UIFont.systemFont(ofSize: 11.0, weight: UIFont.Weight.medium)
         let attrStr = NSAttributedString(string: codecCall.voiceText, attributes: [NSAttributedString.Key.font: font])
         textLabel.setAttributedText(attrStr)
-        codecImage.setImageNamed(getCodecImage(codecCall))
+        codecImage.setImageNamed(codecViewModel.getCodecImage(codecCall))
         if codecCall.category == .track {
             playTrackFile(codecCall.voiceFile)
         }
         playCodecFile(codecCall.voiceFile)
-    }
-    
-    func getCodecImage(_ codecCall: CodecCall) -> String {
-        if codecCall.category == .character {
-            return codecCall.character.rawValue
-        } else if codecCall.category == .track {
-            return "track"
-        } else {
-            return "none"
-        }
     }
     
     func playTrackFile(_ file: String) {
@@ -111,7 +101,9 @@ class InterfaceController: WKInterfaceController, WKCrownDelegate, AVAudioPlayer
             fatalError("Unable to set up the audio session: \(error.localizedDescription)")
         }
         
-        guard let url = Bundle.main.url(forResource: file, withExtension: "mp3") else { return }
+        guard let url = Bundle.main.url(forResource: file, withExtension: "mp3") else {
+            fatalError("Unable to locate track file")
+        }
         try? audioPlayer = AVAudioPlayer(contentsOf: url)
         
         session.activate(options: []) { success, error in
