@@ -95,7 +95,7 @@ class CodecViewModel {
             case .snakeEater:
                 return CodecCall(voiceFile: "snakeEater", voiceText: "Metal Gear Solid 3 - Snake Eater", category: .track, character: .none)
             default:
-                return CodecCall(voiceFile: "wayToFall", voiceText: "Starsailor - Way to Fall", category: .track, character: .none)
+                return defaultCodec
             }
         case .character:
             guard let character = character else {
